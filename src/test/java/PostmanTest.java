@@ -18,6 +18,6 @@ public class PostmanTest {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("json.balance", equalTo(992821429));
+                .body("json.balance", equalTo(882821429));
     }
 }
